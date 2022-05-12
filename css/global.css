@@ -3,5 +3,20 @@
     padding: 0;
 }
 body{
-   background-color: #89E4CF;
+    background-image: url('/Assets/BG.png');
+    position: relative;
+    z-index: 1;
+    
+}
+@font-face {
+    font-family: 'RajdhaniBold';
+    src: url(/fonts/Rajdhani-Bold.ttf);
+}
+@font-face {
+    font-family:'RajdhaniLight' ;
+    src: url(/fonts/Rajdhani-Light.ttf);
+}
+@font-face {
+    font-family: 'RajdhaniMedium';
+    src: url(/fonts/Rajdhani-Medium.ttf);
 }
