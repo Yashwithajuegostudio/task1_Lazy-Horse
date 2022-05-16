@@ -1,0 +1,20 @@
+.popupPanel {
+  width: 40rem;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: absolute;
+  top: 20rem;
+  left: 40rem;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+}
+.box {
+  font-size: 1.4rem;
+  color: white;
+  position: absolute;
+  top: 20rem;
+  left: 40rem;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  font-family: "Rajdhanimedium";
+}
