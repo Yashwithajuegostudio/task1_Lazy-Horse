@@ -2,13 +2,7 @@
   margin: 0;
   padding: 0;
 }
-.container {
-  height: 100vh;
-  background-image: url("/Assets/Images/BG.png");
-  position: relative;
-  text-align: center;
-  z-index: 100;
-}
+
 @font-face {
   font-family: "RajdhaniBold";
   src: url(/Assets/Fonts/Rajdhani-Bold.ttf);

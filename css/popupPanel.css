@@ -1,20 +1,46 @@
+
+.container-bg{
+background-image: url(/Assets/Images/BG.png);
+height: 100vh;
+}
+.popup{
+  display: flex;
+ align-items: center;
+ padding: 25rem;
+  justify-content: center;
+}
 .popupPanel {
-  width: 40rem;
-  background-repeat: no-repeat;
+ 
+  width: 35rem;
+ 
+
+  /* background-repeat: no-repeat;
   background-size: cover;
   position: absolute;
-  top: 20rem;
-  left: 40rem;
+  top: 25rem;
+  left: 50rem;
   transform: translate(-50%, -50%);
-  z-index: 2;
+  z-index: 2; */
 }
 .box {
+  
+  
+  text-align: center;
   font-size: 1.4rem;
   color: white;
   position: absolute;
-  top: 20rem;
-  left: 40rem;
+  top: 27rem;
+  left: 48rem;
   transform: translate(-50%, -50%);
   z-index: 2;
   font-family: "Rajdhanimedium";
+}
+@media screen and(max-width:1500px) and (min-width:1300px) {
+  .popupPanel{
+    left: 20rem;
+  }
+  .box{
+    left: 20rem;
+  }
+  
 }
