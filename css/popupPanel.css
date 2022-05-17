@@ -8,7 +8,7 @@
   position: relative;
 }
 
-.popupPanel {
+.popup-panel {
   width: 32rem;
 }
 .box {
@@ -19,7 +19,7 @@
   font-family: "Rajdhanimedium";
 }
 @media screen and (max-width: 2000px)  and (min-width:1537px){
-  .popupPanel {
+  .popup-panel {
     width:50rem;
   }
   .box {
@@ -27,7 +27,7 @@
   }
 }
 @media screen and (max-width:1040px) and (min-width: 800px) {
-  .popupPanel {
+  .popup-panel {
     width:30rem;
   }
   .box {
@@ -35,7 +35,7 @@
   }
 }
 @media screen and (max-width:800px) and (min-width: 700px) {
-  .popupPanel {
+  .popup-panel {
     width:26rem;
   }
   .box {
@@ -43,7 +43,7 @@
   }
 }
 @media screen and (max-width:700px) and (min-width: 400px) {
-  .popupPanel {
+  .popup-panel {
     width:20rem;
   }
   .box {
@@ -51,7 +51,7 @@
   }
 }
 @media screen and (max-width:400px) and (min-width: 300px) {
-  .popupPanel {
+  .popup-panel {
     width:15rem;
   }
   .box {
@@ -59,7 +59,7 @@
   }
 }
 @media screen and (max-width:300px) and (min-width: 200px) {
-  .popupPanel {
+  .popup-panel {
     width:10rem;
   }
   .box {
