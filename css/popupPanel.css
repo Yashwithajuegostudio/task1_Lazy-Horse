@@ -1,18 +1,15 @@
-
-.container-bg{
-background-image: url(/Assets/Images/BG.png);
-height: 100vh;
-}
-.popup{
+.container-bg {
+  background-image: url(/Assets/Images/BG.png);
+  height: 100vh;
   display: flex;
- align-items: center;
- padding: 25rem;
+  align-items: center;
+  flex-direction: column;
   justify-content: center;
+  position: relative;
 }
+
 .popupPanel {
- 
-  width: 35rem;
- 
+  width: 30rem;
 
   /* background-repeat: no-repeat;
   background-size: cover;
@@ -23,24 +20,24 @@ height: 100vh;
   z-index: 2; */
 }
 .box {
-  
-  
+  position: absolute;
+  top: 18rem;
+  z-index: 2;
   text-align: center;
   font-size: 1.4rem;
   color: white;
-  position: absolute;
+  /* position: absolute;
   top: 27rem;
   left: 48rem;
-  transform: translate(-50%, -50%);
-  z-index: 2;
+  transform: translate(-50%, -50%); */
+  /* z-index: 2; */
   font-family: "Rajdhanimedium";
 }
-@media screen and(max-width:1500px) and (min-width:1300px) {
-  .popupPanel{
+@media screen and(max-width:1500px) and (min-width: 1300px) {
+  .popupPanel {
     left: 20rem;
   }
-  .box{
+  .box {
     left: 20rem;
   }
-  
 }
