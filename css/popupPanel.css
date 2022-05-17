@@ -9,35 +9,60 @@
 }
 
 .popupPanel {
-  width: 30rem;
-
-  /* background-repeat: no-repeat;
-  background-size: cover;
-  position: absolute;
-  top: 25rem;
-  left: 50rem;
-  transform: translate(-50%, -50%);
-  z-index: 2; */
+  width: 32rem;
 }
 .box {
-  position: absolute;
-  top: 18rem;
-  z-index: 2;
   text-align: center;
   font-size: 1.4rem;
   color: white;
-  /* position: absolute;
-  top: 27rem;
-  left: 48rem;
-  transform: translate(-50%, -50%); */
-  /* z-index: 2; */
+  position: absolute;
   font-family: "Rajdhanimedium";
 }
-@media screen and(max-width:1500px) and (min-width: 1300px) {
+@media screen and (max-width: 2000px)  and (min-width:1537px){
   .popupPanel {
-    left: 20rem;
+    width:50rem;
   }
   .box {
-    left: 20rem;
+    font-size: 2rem;
+  }
+}
+@media screen and (max-width:1040px) and (min-width: 800px) {
+  .popupPanel {
+    width:30rem;
+  }
+  .box {
+    font-size: 1.2rem;
+  }
+}
+@media screen and (max-width:800px) and (min-width: 700px) {
+  .popupPanel {
+    width:26rem;
+  }
+  .box {
+    font-size: 1rem;
+  }
+}
+@media screen and (max-width:700px) and (min-width: 400px) {
+  .popupPanel {
+    width:20rem;
+  }
+  .box {
+    font-size: 0.8rem;
+  }
+}
+@media screen and (max-width:400px) and (min-width: 300px) {
+  .popupPanel {
+    width:15rem;
+  }
+  .box {
+    font-size: 0.7rem;
+  }
+}
+@media screen and (max-width:300px) and (min-width: 200px) {
+  .popupPanel {
+    width:10rem;
+  }
+  .box {
+    font-size: 0.4rem;
   }
 }
